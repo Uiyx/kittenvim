@@ -20,5 +20,3 @@ require "kitten.keymaps"
 require "kitten.plugins"
 require "kitten.cmp"
 require "kitten.lsp"
-
-vim.cmd"source ~/.config/nvim/VampyricDark.vim"
