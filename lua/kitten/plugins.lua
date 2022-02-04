@@ -54,10 +54,12 @@ return packer.startup(function(use)
     use "nvim-treesitter/playground"
     use "windwp/nvim-autopairs"
     use "lewis6991/gitsigns.nvim"
-    use 'kyazdani42/nvim-web-devicons'
-    use 'kyazdani42/nvim-tree.lua'
-    use 'norcalli/nvim-colorizer.lua'
-    use 'VampyricDark/vim'
+    use "kyazdani42/nvim-web-devicons"
+    use "kyazdani42/nvim-tree.lua"
+    use "norcalli/nvim-colorizer.lua"
+    use "VampyricDark/vim"
+    use "numToStr/Comment.nvim"
+    use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins

@@ -10,4 +10,5 @@ configs.setup {
     indent = { enable = true, disable = { "yaml" } },
     rainbow = { enable = true, extended_mode = true, max_file_lines = nil },
     playground = { enable = true },
+    context_commentstring = { enable = true, enable_autocmd = false },
 }
