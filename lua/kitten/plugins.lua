@@ -43,7 +43,6 @@ return packer.startup(function(use)
     use "saadparwaiz1/cmp_luasnip"
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
-    use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
     use "L3MON4D3/LuaSnip"
     use "rafamadriz/friendly-snippets"
     use "neovim/nvim-lspconfig"
