@@ -23,6 +23,5 @@ require "kitten.autopairs"
 require "kitten.gitsigns"
 require "kitten.nvim-tree"
 require "kitten.comment"
+require "kitten.alpha"
 require "kitten.colorscheme"
-
--- vim.cmd"colorscheme VampyricDark"

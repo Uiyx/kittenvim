@@ -60,6 +60,7 @@ return packer.startup(function(use)
     use "VampyricDark/vim"
     use "numToStr/Comment.nvim"
     use "JoosepAlviste/nvim-ts-context-commentstring"
+    use "goolord/alpha-nvim"
 
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
