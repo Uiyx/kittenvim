@@ -37,4 +37,3 @@ vim.opt.guifont = "Liberation Mono:h12"
 vim.opt.shortmess:append "c"
 
 -- vim.cmd section, run vim commands
-
