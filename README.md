@@ -3,3 +3,4 @@ Neovim config for cat* (Including but not limited to: catgirls, catboys and cate
 
 ## Requirements (You can avoid installing all of these by modifying the config):
 - ripgrep
+- ueberzug
