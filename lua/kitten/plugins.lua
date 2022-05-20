@@ -57,11 +57,13 @@ return packer.startup(function(use)
     use "kyazdani42/nvim-web-devicons"
     use "kyazdani42/nvim-tree.lua"
     use "norcalli/nvim-colorizer.lua"
-    use "VampyricDark/vim"
     use "numToStr/Comment.nvim"
     use "JoosepAlviste/nvim-ts-context-commentstring"
     use "goolord/alpha-nvim"
-
+    use({
+	"catppuccin/nvim",
+	as = "catppuccin"
+    })
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
   if PACKER_BOOTSTRAP then
