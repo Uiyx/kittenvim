@@ -52,8 +52,7 @@ cmp.setup {
   },
  window = {
    completion = cmp.config.window.bordered(),
-   -- documentation = cmp.config.window.bordered(),
-   documentation = "native"
+   documentation = cmp.config.window.bordered()
  },
   mapping = {
     ["<C-k>"] = cmp.mapping.select_prev_item(),
